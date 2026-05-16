@@ -64,19 +64,19 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 0
+    - _Blend: 2
     - _CastShadows: 1
     - _Clip: 0.03
     - _ColorIntensity: 1
     - _Cull: 2
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _MainTexPower: 1.34
     - _NoiseSpeed: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleCount: -4
     - _RippleStrength: 1.3
-    - _RotationSpeed: 0.2
+    - _RotationSpeed: 0
     - _SrcBlend: 5
     - _StepFloat: 0
     - _Surface: 1
@@ -85,5 +85,5 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 3.9999995, g: 1.1308899, b: 0.12565443, a: 1}
+    - _Color: {r: 7.336102, g: 6.4190893, b: 6.4190893, a: 1}
   m_BuildTextureStacks: []
