@@ -23,17 +23,15 @@ Material:
   m_Name: WaterTest
   m_Shader: {fileID: -6465566751694194690, guid: a5f240b9712b740d3921102c04264375,
     type: 3}
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
+    RenderType: Opaque
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -55,19 +53,19 @@ Material:
     - _Blend: 0
     - _CastShadows: 1
     - _Cull: 0
-    - _DensityVoronoi: 6.92
-    - _DstBlend: 10
-    - _GradientNoiseWater: 0.1
-    - _IntensityVoronoi: 4.09
+    - _DensityVoronoi: -3.2
+    - _DstBlend: 0
+    - _GradientNoiseWater: 0
+    - _IntensityVoronoi: 8.91
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 5
-    - _Surface: 1
+    - _SrcBlend: 1
+    - _Surface: 0
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 0, g: 0.32931557, b: 0.8, a: 0}
-    - _RippleSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RippleSpeed: {r: 0.62, g: 0.5, b: 0, a: 0}
     - _WaterColor: {r: 0.75609595, g: 3.9609456, b: 4.5797815, a: 0}
   m_BuildTextureStacks: []
